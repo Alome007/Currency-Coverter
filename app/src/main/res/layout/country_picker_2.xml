@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/countryPicker2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="@dimen/_120sdp"
+        android:background="@drawable/spinner"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="@dimen/_50sdp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/country_flag_2"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_centerVertical="true"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_usa" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_23sdp"
+            android:textColor="#d1d1d1"
+            android:text="USD"
+            android:fontFamily="@font/product"
+            android:id="@+id/code_2"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/country_flag_2"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>
